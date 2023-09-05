@@ -1,0 +1,25 @@
+.container {
+  width: 80%;
+  background-color: var(--secondary-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+
+.heading {
+  font-weight: 100;
+  margin-top: -20px;
+
+  font-size: 100px;
+  color: var(--accent-color);
+}
+
+.todos-container {
+  width: 100%;
+  padding: 0 10px;
+}

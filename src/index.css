@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+:root {
+  --accent-color: #dfcbc9;
+  --primary-color: #000;
+  --secondary-color: #efefef;
+  --secondary-color-accent: #9a9a9a;
+  --secondary-color-accent_hover: #4c4c4c;
+
+  --radius: 3px;
+}
+
+*,
+*::after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 1.5;
+}

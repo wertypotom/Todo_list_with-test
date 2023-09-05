@@ -1,0 +1,32 @@
+.container {
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+}
+
+input[type='checkbox']:checked {
+  width: 30px;
+  height: 30px;
+
+  background-image: url('@/assets/check-mark.svg');
+  background-position: center;
+  background-size: contain;
+
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+}

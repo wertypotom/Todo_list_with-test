@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoItem Component > Should render Todo Item 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="_container_3de4f0"
+    >
+      <input
+        checked=""
+        id="0 - Hello"
+        type="checkbox"
+      />
+    </div>
+    <label
+      class="completed"
+      for="0 - Hello"
+    >
+      Hello
+    </label>
+  </div>
+</div>
+`;

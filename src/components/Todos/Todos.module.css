@@ -1,0 +1,66 @@
+.container {
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  border-radius: var(--radius);
+}
+
+.todo-container {
+  max-height: 300px;
+  overflow-x: auto;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--secondary-color-accent_hover);
+}
+
+.footer {
+  margin: 8px 0;
+
+  color: var(--secondary-color-accent);
+  font-weight: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters {
+  font-size: 15px;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.active {
+  padding: 3px;
+
+  border: 1px solid var(--accent-color);
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

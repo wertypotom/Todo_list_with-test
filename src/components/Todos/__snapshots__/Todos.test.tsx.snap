@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Todo Component > Should render Todo list 1`] = `
+<div>
+  <section
+    class="_container_afcc56"
+  >
+    <div
+      class="_todo-container_afcc56"
+    />
+    <footer
+      class="_footer_afcc56"
+    >
+      <div>
+        0
+         items left
+      </div>
+      <div
+        class="_filters_afcc56"
+      >
+        <div
+          class="_btn_afcc56 _active_afcc56"
+        >
+          All
+        </div>
+        <div
+          class="_btn_afcc56 "
+        >
+          Active
+        </div>
+        <div
+          class="_btn_afcc56 "
+        >
+          Completed
+        </div>
+      </div>
+      <div
+        class="_btn_afcc56"
+        data-testid="clear-btn"
+      >
+        Clear completed
+      </div>
+    </footer>
+  </section>
+</div>
+`;
